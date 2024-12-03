@@ -9,7 +9,8 @@ function App() {
   const [editingTask, setEditingTask] = useState(null);
   const [successMessage, setSuccessMessage] = useState("");  // Success message state
 
-  const apiUrl = "https://backend-todo-2-ncxc.onrender.com"; // Flask API base URL
+  const apiUrl = "https://your-app-name.onrender.com/api/todos"; // Use your actual Render URL here
+  // Updated to deployed backend URL
 
   // Fetch tasks on component mount
   useEffect(() => {
